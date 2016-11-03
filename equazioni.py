@@ -7,4 +7,4 @@ if b==0 :
 elif a==0 :
   print "L'equazione e' impossibile"
 else:
-  print "Il risultato e'", -b/a
+  print "Il risultato e'", -float(b)/float(a)
