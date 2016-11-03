@@ -10,5 +10,5 @@ if scelta == 1:
 elif scelta==2:
 
   raggio=input("Inserire il raggio della sfera: ")
-  volumes= 4.0/3.0 * math.pi * r * r
+  volumes= 4.0/3.0 * math.pi * r * r * r
   print "Il volume della sfera e'", volumes
