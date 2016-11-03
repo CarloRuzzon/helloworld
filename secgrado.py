@@ -11,7 +11,7 @@ if a==0 and b==0 and c==0:
 elif a==0 and b==0:
   print "0 =", c
 elif a==0:
-  print a, "=0"
+  print "E' un'equazione di primo grado ovvero:", "x =", -c  
 else:
   s = math.pow(b,2) - 4 * a * c
   if s<=0:
