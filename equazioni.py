@@ -2,9 +2,11 @@
 
 a=input("Inserire il coefficiente di x: ")
 b=input("Inserire il termine noto: ")
-if b==0 : 
+if a==0 and b==0:
+  print "l'equazione non esiste."
+elif b==0 : 
   print "x = 0"
 elif a==0 :
-  print "L'equazione e' impossibile"
+  print "L'equazione e' impossibile,"
 else:
-  print "Il risultato e'", -float(b)/float(a)
+  print "x =", -float(b)/float(a)
