@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang='it'>
+  <head>
+    <meta charset="utf-8">
+    <title>Il linguaggio c</title>
+  </head>
+
+  <body>
+
+    <h1>Il linguaggio C</h1>
+
+    <h2>Da Wikipedia, l'enciclopedia libera.</h2>
+
+    <h2>Introduzione</h2>
+    
+    <p>Il C e' un linguaggio di programmazione ad alto livello che integra
+caratteristiche dei linguaggi di basso livello, come il linguaggio macchina e l'assembly,
+per questo si usa anche l'espressione "di medio livello".</p>
+
+    <p>Il C e' rinomato per la sua efficienza, e si e' imposto come linguaggio di riferimento
+per la realizzazione di software di sistema su gran parte delle piattaforme hardware moderne.
+La standardizzazione del linguaggio (da parte dell'ANSI prima e dell'ISO poi)
+garantisce la portabilita' dei programmi scritti in C (standard, spesso detto ANSI C) su qualsiasi piattaforma.</p>
+
+    <p>Oltre che per il software di sistema, il C e' stato a lungo il linguaggio dominante in tutta una
+serie di altri domini applicativi caratterizzati da forte enfasi sull'efficienza.
+Esempi tipici sono le telecomunicazioni, il controllo di processi industriali e il software real-time.
+Oggi il predominio del C in questi contesti e' in parte diminuito
+a seguito dell'avvento di competitor significativi, primo fra tutti il C++.</p>
+
+    <p>Il C ha, e continua ad avere, anche una notevole importanza didattica, sebbene,
+per la sua complessita' semantica e per le forti relazioni di tale semantica con il
+funzionamento dell'hardware dei computer, non si tratti di un linguaggio particolarmente
+intuitivo per i principianti, e in special modo a quelli sprovvisti di un adeguato
+background sull'elettronica dei calcolatori.
+Se un tempo scuole superiori e corsi universitari adottavano il C come linguaggio di
+riferimento a causa della sua importanza tecnica, oggi questa scelta trova un'ulteriore motivazione
+nella crescente importanza di linguaggi che dal C derivano (per esempio C++, Java e C# e,
+per consentire allo studente un approccio iniziale piu' rapido ed intuitivo, linguaggi ad alto livello come Python).</p>
+
+    <h2>Concetti generali</h2>
+    <p>Il C e' un linguaggio di programmazione relativamente minimalista;
+la sua semantica utilizza un insieme ristretto di concetti relativamente semplici e vicini
+al funzionamento dell'hardware dei calcolatori; molte istruzioni C sono traducibili direttamente
+con una singola istruzione di linguaggio macchina (per esempio, gli operatori di autoincremento e autodecremento).
+Nel linguaggio un ruolo centrale viene svolto dal concetto di puntatore,
+che viene generalizzato fino a coincidere con l'indirizzamento indiretto,
+un modo di accedere alla memoria hardware caratteristico di tutte le moderne CPU.
+Questo rende il C un linguaggio particolarmente efficiente. D'altra parte, rispetto al
+linguaggio assembly il C ha in piu' una struttura logica definita e leggibile,
+funzioni in stile Pascal e soprattutto il controllo sui tipi (in fase di compilazione),
+che manca completamente in assembly.</p>
+
+    <p>La sintassi del C e' piuttosto versatile e il linguaggio e' in forma libera,
+permettendo di scrivere istruzioni complesse in poche righe di codice,
+o di creare programmi criptici e illeggibili (offuscamento del codice).
+In definitiva, il successo del C fu decretato dall'essere un linguaggio
+creato da programmatori esperti, per essere usato da programmatori esperti.</p>
+
+    <p>Questa grande liberta', la complessita' sintattica del linguaggio
+(che come abbiamo visto contiene poche istruzioni di base) e il ruolo centrale dei puntatori,
+che e' necessario usare praticamente fin dai primi programmi,
+ne fanno viceversa un linguaggio ostico e sconsigliabile ai neofiti, che cadono quasi subito
+in una serie di trappole che, se pure ovvie per un esperto, sono molto difficili da individuare per un principiante.</p>
+
+    <p>Grazie alla particolare efficienza del codice prodotto dai suoi compilatori,
+il C venne utilizzato per riscrivere la maggior parte del codice del sistema UNIX,
+riducendo l'uso dell'assembly ad un piccolo gruppo di funzioni.
+La sua importanza tuttavia, crebbe solo dopo il 1978 con la pubblicazione da parte
+di Brian Kernighan e Dennis Ritchie del libro<em> The C Programming Language</em>
+nel quale il linguaggio venne definito in modo preciso.</p>
+
+    <p>Il suo successivo larghissimo utilizzo porto' alla nascita di diversi
+dialetti e quindi alla necessita' di definirne uno standard:
+a questo scopo nell'estate del 1983 venne nominato un comitato con il compito di creare uno
+standard ANSI (American National Standards Institute) che definisse il linguaggio C una volta per tutte.
+Il processo di standardizzazione, il quale richiese sei anni (molto piu' del previsto), termino'
+nel dicembre del 1989, e le prime copie si resero disponibili agli inizi del 1990.
+Questa versione del C e' normalmente chiamata C89. Lo standard venne anche adottato dall'International
+Organisation for Standardisation (ISO) nel 1999 con il nome di C Standard ANSI/ISO.
+Nel 1995 fu adottato l'Emendamento 1 al C Standard che, fra le altre cose,
+ha aggiunto nuove funzioni alla libreria standard del linguaggio.
+Usando come documento base il C89 con l'Emendamento 1, e unendovi l'uso delle classi
+di Simula, Bjarne Stroustrup inizio' a sviluppare il C++.</p>
+
+    <p>Il risultato finale del continuo sviluppo del C fu lo standard promulgato
+    nel 1999, noto come ISO C99 (codice ISO 9899).</p>
+
+    <p>Con l'ultima versione C11 (2011) vengono lievemente rivisti alcuni comandi.</p>
+
+    <h2>Parole chiave</h2>
+
+    <p>Il linguaggio C (come qualsiasi altro linguaggio di programmazione)
+    consente la realizzazione di programmi adoperando un insieme di "parole chiave" (keywords).</p>
+
+    <p>Lo standard ANSI ha definito il seguente insieme di parole chiave:
+auto, break, case, char, const, continue, default, do, double, else, enum, extern, float, for,
+goto, if, int, long, register, return, short, signed, sizeof, static, struct, switch,
+typedef, union, unsigned, void, volatile, while.</p>
+
+    <h2>Programma di esempio</h2>
+    <h3>Hello world!</h3>
+
+    <pre>#include &lt;stdio.h&gt;
+    
+int main()
+{ 
+   printf("Hello world\n");
+   return 0;
+}</pre>
+
+    <address>Wikipedia<br>
+      L'enciclopedia libera e collaborativa<address>
